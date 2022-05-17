@@ -1,1 +1,1 @@
-Scroll feito manualmente para uso em projetos Web em pc, não sei o motivo, mas para mobile o scroll default ainda aparece
+Scroll feito manualmente para uso em projetos Web em pc, não sei o motivo, mas para mobile o scroll default ainda aparece, o código é simples e da pra alterar cor, tamanho, o lado que fica e tudo que quiser.
