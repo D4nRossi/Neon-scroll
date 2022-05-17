@@ -1,0 +1,23 @@
+.container{
+    height: 200rem;
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    font-size: 40px;
+}
+
+::-webkit-scrollbar{
+    width: 0;
+}
+
+#progressbar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 10px;
+    border-radius: 10px;
+    background: linear-gradient(to top, #cd00cd, #800080, #833ab4);
+    z-index: 100;
+}

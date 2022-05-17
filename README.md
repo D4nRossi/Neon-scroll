@@ -1,0 +1,1 @@
+Scroll feito manualmente para uso em projetos Web em pc, não sei o motivo, mas para mobile o scroll default ainda aparece

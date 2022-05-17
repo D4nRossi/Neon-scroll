@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Neon-scroll</title>
+</head>
+<body>
+    <div id="progressbar"></div>
+    
+    <div class="container"><h1>Scrolle o Mouse</h1></div>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script type="text/javascript">
+    $(window).scroll(function(){
+    var scroll = $(window).scrollTop(),
+    dh = $(document).height(),
+    wh = $(window).height();
+
+    scrollPercent = (scroll / (dh - wh)) * 100;
+    $('#progressbar').css('height', scrollPercent + '%');
+})
+</script>
+</body>
+</html>
